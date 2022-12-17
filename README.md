@@ -24,13 +24,25 @@ To run this project, you will need to have installed:
 Clone the project
 
 ```bash
-  git clone https://github.com/WRup/jasypt-spring-boot
+  git clone https://github.com/WRup/jasypt-spring-boot.git
 ```
 
 Go to the project directory
 
 ```bash
   cd jasypt-spring-boot
+```
+
+Install
+
+```bash
+  mvn clean install
+```
+
+Go to the project directory
+
+```bash
+  cd target
 ```
 
 Run the application
