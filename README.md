@@ -57,8 +57,16 @@ Go to the project directory
 
 Run the application
 
+* for **jasypt_auto_configuration** branch
+
 ```bash
   java -jar -Djasypt.encryptor.password='Pa55word!Us3D_F0r#Alg0RiTHm' jasypt-demo-0.0.1-SNAPSHOT.jar
+```
+
+* for **jasypt_custom_configuration** branch
+
+```bash
+  java -jar -Dencryption.password='Pa55word!Us3D_F0r#Alg0RiTHm' jasypt-demo-0.0.1-SNAPSHOT.jar
 ```
 
 ## Authors
