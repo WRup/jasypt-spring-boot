@@ -3,12 +3,11 @@
 
 Repository with examples of how to configure Jasypt library with Spring Boot
 
-Branches:
-- 
+## Branches
+
 * **master**: empty spring boot project
 * **jasypt_auto_configuration**: version with default Jasypt configuration
 * **jasypt_custom_configuration**: version with custom Jasypt configuration
-
 
 ## Pre-Requisites
 
@@ -17,7 +16,6 @@ To run this project, you will need to have installed:
 `JAVA 17`
 
 `MAVEN`
-
 
 ## Run Locally
 
@@ -31,6 +29,18 @@ Go to the project directory
 
 ```bash
   cd jasypt-spring-boot
+```
+
+Checkout to one of existing branches
+
+```bash
+  git checkout jasypt_auto_configuration
+```
+
+> or
+
+```bash
+  git checkout jasypt_custom_configuration
 ```
 
 Install
@@ -51,8 +61,6 @@ Run the application
   java -jar -Djasypt.encryptor.password='Pa55word!Us3D_F0r#Alg0RiTHm' jasypt-demo-0.0.1-SNAPSHOT.jar
 ```
 
-
 ## Authors
 
-- [@WRup](https://www.github.com/WRup)
-
+* [@WRup](https://www.github.com/WRup)
